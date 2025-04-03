@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class proyekt {
+    public static void main(String[] args) {
+        Scanner sual = new Scanner(System.in);
+        System.out.print("Ededi daxil et: ");
+        int n = sual.nextInt();
+        int birinci = 0;
+        int ikinci = 1;
+        int novbeti = 0;
+        for (int i = 1; i<n; i++){
+            System.out.print(" "+birinci);
+            novbeti = birinci + ikinci;
+            birinci = ikinci;
+            ikinci = novbeti;
+
+
+        }
+
+    }
+    }
