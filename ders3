@@ -1,0 +1,58 @@
+
+<html>
+<head>
+<style>
+*{
+  background-color: #814141;
+  font-size: 30px;
+}
+p,h1,button{
+  color:white;
+}
+body{
+  margin: 0px 35px;
+}
+.yuxari{
+  display: flex;
+  justify-content: space-between;
+}
+.sag{
+  display: flex;
+  gap: 35px;
+}
+.sol p{
+  font-size: 50px;
+}
+h3{
+  color: gold;
+}
+</style>
+
+</head>
+<body>
+<div class="yuxari">
+  <div class="sol" scripts="font-size: 50px">
+    <p>Coffee</p>
+    </div>
+    
+    <div class="sag">
+        <p>Home</p>
+        <p>About</p>
+        <p>Menu</p>
+        <p>Testimonials</p>
+        <p>Gallery</p>
+        <p>Contact</p>
+    </div>
+</div>
+<div class="asd">
+    <h3><i>Best Coffee</i></h3>
+    <h1>Make your day great with our<br>special coffee!</h1>
+    <p>Welcome to our coffee paradise where every bean tells a story and every cup sparks joy.</p>
+
+    <button>Order Now</button>
+    <button>Contact Us</button>
+</div>
+
+
+</body>
+</html>
